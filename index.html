@@ -20,6 +20,10 @@
     <link rel="stylesheet" href="src/style.css" />
 
     <script
+      src="https://kit.fontawesome.com/408dc1b75a.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
@@ -29,6 +33,29 @@
   <body>
     <div class="heading-container">
       <h1>Hike notes</h1>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">🌄</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="about.html">About</a>
+            <a class="nav-item nav-link" href="#">Contact</a>
+          </div>
+        </div>
+      </nav>
     </div>
     <div class="body-container">
       <div class="row hike-box">
@@ -93,12 +120,22 @@
     </div>
     <footer>
       <h3>Want to check out more?</h3>
-      <a href="http://" title="Instagram"></a>
-      <a href="http://" title="Twitter"></a>
-      <a href="http://" title="GitHub"></a>
+      <div class="icons">
+        <a
+          href="https://www.instagram.com/aline.kachel/"
+          title="My Instagram page"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a href="https://twitter.com/alinekachel" title="My Twitter"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://github.com/alinekachel" title="GitHub"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
       <p>
-        Or send me an email at:
-        <a href="mailto:alinekachel@gmail.com" title="My emaisl address"
+        Or send me an email at <br />
+        <a href="mailto:alinekachel@gmail.com" title="My email address"
           >alinekachel@gmail.com</a
         >
       </p>

@@ -23,10 +23,28 @@ h4 {
 footer {
   background-color: var(--neuter-light-color);
   margin: 0;
+  padding: 40px 200px;
+  text-align: center;
+}
+h1 {
+  font-size: 56px;
+}
+h3 {
+  font-size: 40px;
 }
 
 p {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  font-family: var(--sans-serif);
+  font-size: 20px;
+  color: var(--neuter-light-color);
 }
 
 .heading-container {
@@ -60,4 +78,24 @@ p {
 
 .col-lg-6 p {
   padding: 15px 0;
+}
+
+footer p {
+  font-size: 22px;
+}
+
+footer p a {
+  color: var(--primary-color);
+  font-size: 26px;
+}
+
+.icons {
+  text-align: center;
+  margin: 30px;
+}
+
+.icons a {
+  font-size: 46px;
+  color: var(--primary-color);
+  margin: 25px;
 }
