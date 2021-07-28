@@ -20,6 +20,15 @@ h4 {
   font-family: var(--serif);
 }
 
+footer {
+  background-color: var(--neuter-light-color);
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
 .heading-container {
   background-color: var(--highlight-color);
   color: var(--neuter-light-color);
