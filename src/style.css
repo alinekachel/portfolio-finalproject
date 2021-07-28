@@ -49,7 +49,6 @@ a {
 nav {
   font-family: var(--sans-serif);
   font-size: 20px;
-  color: var(--neuter-light-color);
 }
 
 .heading-container {
@@ -103,6 +102,10 @@ footer p a {
   font-size: 46px;
   color: var(--primary-color);
   margin: 25px;
+}
+#hike-icon {
+  color: var(--neuter-light-color);
+  font-size: 30px;
 }
 
 @media (max-width: 992px) {
