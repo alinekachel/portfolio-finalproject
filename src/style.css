@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #0a3500;
+  --secondary-color: #8dba69;
+  --neuter-light-color: #f1f1f1;
+  --neuter-dark-color: #939393;
+  --highlight-color: #4d7e29;
+}
+
+.heading-container {
+  background-color: var(--highlight-color);
+  color: var(--neuter-light-color);
+  padding: 40px 20px;
+}
